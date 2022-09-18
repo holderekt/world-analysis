@@ -14,4 +14,9 @@
 - Alcune righe presentano lo stesso paese ripetuto, le ripetizioni sono massimo 3 (una per ogni diverso indicatore del debito)
 - Molti paesi non presentano tutti gli indicatori, il totale dei paesi osservati è 193
 
+
+# Risultati analisi esplorativa
+
+
+
 ## Analisi esplorativa ##
