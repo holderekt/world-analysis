@@ -1,22 +1,20 @@
-### Analisi iniziale ##
-- La colonna attribute ha valore value per tutti i dati, eliminabile
+# Explorative and time series analysis of world debt dataset
 
-- Per ogni paese sono presenti tre indicatori nella serie temporale con relativo codice
-    - Gross Domestic Product (NGPD) 
-        - Prodotto interno lordo espresso in dollari USD
-    - Debt to GDP ratio (GGXWDG_GDP)
-        - Rapporto tra debito e prodotto interno lordo, un valore alto è negativo
-    - Gross Government Debt (GGXWDG)
-        - Debito totale del paese espresso in dollari USD
+The dataset conatins unbalanced data of GDP, public debt and GDP/DEBT ration for 187 countries. The time series for each country spans from 1800 to 2020 but each country data dependes on their date of independence and data availability.
 
-- La serie temporale analizza l’andamento di questi indicatori dal 1800 al 2020
-- 226 colonne (5 per la descrizione degli attributi 221 per le date), 570 righe
-- Alcune righe presentano lo stesso paese ripetuto, le ripetizioni sono massimo 3 (una per ogni diverso indicatore del debito)
-- Molti paesi non presentano tutti gli indicatori, il totale dei paesi osservati è 193
+This project consists in:
 
+- Domain analysis
+- Statistical analysis
+    - Missing data removal and inference
+    - Outlier removal
+- Clustering
+    - Multidimensional KMeans
+    - Agglomerative
+    - DBSCAN 
+    - KMeans and Agglomerative on Haar wavelet transform
+    - KMeans and Agglomerative on Dinamic Time Warping data
+- Pattern mining
+    - Apriori on cluster data 
 
-# Risultati analisi esplorativa
-
-
-
-## Analisi esplorativa ##
+More details in the docs
